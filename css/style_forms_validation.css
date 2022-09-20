@@ -1,0 +1,23 @@
+﻿.field-validation-error{color: #b94a48;}
+#pp-wrapper .input-validation-error{border:1px solid #b94a48;}
+.field-validation-valid {display: none;}
+.validation-summary-errors{font-weight: bold;color: #b94a48;
+*display: inline-block;
+  *padding-left: 20px;
+  margin-left: 180px;
+  *margin-left: 0;
+}
+.form-inline .validation-summary-errors{
+
+*padding-left: 0px;
+  margin-left: 0px;}
+div.validation-summary-errors ul{padding:0px;margin:0px;}
+div.validation-summary-errors ul li{list-style:none;padding:0px;margin:0px;}
+fieldset div.validation-summary-errors ul li{padding-left:10px;}
+.sub{float:left; margin-right:5px;}
+@media (max-width: 480px) {
+  .form-horizontal .controls, .form-horizontal .validation-summary-errors,.form-horizontal .validation-summary-errors li {
+    margin-left: 0;
+	padding-left:0;
+  }
+  }
